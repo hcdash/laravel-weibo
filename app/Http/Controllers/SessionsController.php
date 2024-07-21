@@ -8,8 +8,8 @@ class SessionsController extends Controller
 {
     public function create()
     {
+        //just test git 
         return view('sessions.create');
-
     }
 
     public function store(Request $request)
